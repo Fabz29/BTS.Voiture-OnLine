@@ -27,7 +27,7 @@ namespace VoitureOnLine
             cbFinitionInter.Text = "Young";
             cbFinitionExter.Text = "Urban";
             cbMotorisation.Text = "Essence";
-            lbSelection.Text = "Selection enregistré : Prix : 10000 €";
+            lbSelection.Text = "Aucune séléction";
             tbClient.Text = "";
             checkB4portes.Checked = false;
             checkBCabriolet.Checked = false;
@@ -44,6 +44,7 @@ namespace VoitureOnLine
             else
             {
                 Voiture uneVoiture = null;
+                lbSelection.ForeColor = System.Drawing.Color.Green;
 
                 if (rbCitadine.Checked)
                 {
@@ -61,11 +62,12 @@ namespace VoitureOnLine
                 {
                     uneVoiture = new Limousine(cbCouleur.Text, cbFinitionExter.Text, cbFinitionInter.Text, cbMotorisation.Text);
                 }
-
+ 
                 Commande uneCommande = new Commande(tbClient.Text, uneVoiture);
                 lesCommandes.Add(uneCommande);
                 MessageBox.Show("La commande de la voiture a bien été ajouté", "Validé");
-                Init();            
+                Init();
+                lbSelection.Text = "Selection enregistré : Prix : " + uneVoiture.Prix() + "€";
             }
         }
 

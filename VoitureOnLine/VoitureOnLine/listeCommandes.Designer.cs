@@ -45,7 +45,7 @@
             // lbNbCommande
             // 
             this.lbNbCommande.AutoSize = true;
-            this.lbNbCommande.Location = new System.Drawing.Point(133, 277);
+            this.lbNbCommande.Location = new System.Drawing.Point(166, 277);
             this.lbNbCommande.Name = "lbNbCommande";
             this.lbNbCommande.Size = new System.Drawing.Size(82, 13);
             this.lbNbCommande.TabIndex = 1;
@@ -54,7 +54,7 @@
             // lbTotalCommandes
             // 
             this.lbTotalCommandes.AutoSize = true;
-            this.lbTotalCommandes.Location = new System.Drawing.Point(760, 277);
+            this.lbTotalCommandes.Location = new System.Drawing.Point(654, 277);
             this.lbTotalCommandes.Name = "lbTotalCommandes";
             this.lbTotalCommandes.Size = new System.Drawing.Size(92, 13);
             this.lbTotalCommandes.TabIndex = 2;

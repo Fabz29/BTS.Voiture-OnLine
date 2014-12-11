@@ -193,16 +193,15 @@
             // tbClient
             // 
             this.tbClient.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.tbClient.Location = new System.Drawing.Point(593, 41);
+            this.tbClient.Location = new System.Drawing.Point(227, 291);
             this.tbClient.Name = "tbClient";
-            this.tbClient.Size = new System.Drawing.Size(116, 20);
+            this.tbClient.Size = new System.Drawing.Size(293, 20);
             this.tbClient.TabIndex = 9;
             this.tbClient.TabStop = false;
             // 
             // cbFinitionInter
             // 
             this.cbFinitionInter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbFinitionInter.FormattingEnabled = true;
             this.cbFinitionInter.Items.AddRange(new object[] {
             "Young",
             "Luxe",
@@ -292,7 +291,7 @@
             // lbClient
             // 
             this.lbClient.AutoSize = true;
-            this.lbClient.Location = new System.Drawing.Point(540, 44);
+            this.lbClient.Location = new System.Drawing.Point(174, 294);
             this.lbClient.Name = "lbClient";
             this.lbClient.Size = new System.Drawing.Size(47, 13);
             this.lbClient.TabIndex = 16;
@@ -336,10 +335,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::VoitureOnLine.Properties.Resources.banner1;
-            this.pictureBox1.Location = new System.Drawing.Point(187, 72);
+            this.pictureBox1.Image = global::VoitureOnLine.Properties.Resources.VoitureGrise;
+            this.pictureBox1.Location = new System.Drawing.Point(227, 72);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(369, 265);
+            this.pictureBox1.Size = new System.Drawing.Size(293, 175);
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             // 

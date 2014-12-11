@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VoitureOnLine.Citadine">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Citadine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VoitureOnLine.Commande">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAAAAAIAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commande.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="lesVoitures" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="VoitureOnLine.Compacte">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Compacte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VoitureOnLine.Familiale">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Familiale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VoitureOnLine.Limousine">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Limousine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VoitureOnLine.Voiture">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgAAgAAAAIAAACAAgAAgAIAAAAAAAAAQAAAAAAIAA=</HashCode>
+      <FileName>Voiture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

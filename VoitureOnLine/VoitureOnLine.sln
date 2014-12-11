@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoitureOnLine", "VoitureOnLine\VoitureOnLine.csproj", "{9796EC43-987B-4773-BE58-58ED28199C93}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoitureOnLine_WindowsForm", "VoitureOnLine\VoitureOnLine_WindowsForm.csproj", "{9796EC43-987B-4773-BE58-58ED28199C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryVoitureOnline", "ClassLibraryVoitureOnline\ClassLibraryVoitureOnline.csproj", "{D16E6BB9-062D-4850-BE4C-70DD182C177E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoitureOnLine_TestUnitaire", "VoitureOnLine_TestUnitaire\VoitureOnLine_TestUnitaire.csproj", "{642B4F63-697F-4ED6-8B3E-52E3FB32A49F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9796EC43-987B-4773-BE58-58ED28199C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9796EC43-987B-4773-BE58-58ED28199C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9796EC43-987B-4773-BE58-58ED28199C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16E6BB9-062D-4850-BE4C-70DD182C177E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16E6BB9-062D-4850-BE4C-70DD182C177E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16E6BB9-062D-4850-BE4C-70DD182C177E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16E6BB9-062D-4850-BE4C-70DD182C177E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642B4F63-697F-4ED6-8B3E-52E3FB32A49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642B4F63-697F-4ED6-8B3E-52E3FB32A49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642B4F63-697F-4ED6-8B3E-52E3FB32A49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642B4F63-697F-4ED6-8B3E-52E3FB32A49F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

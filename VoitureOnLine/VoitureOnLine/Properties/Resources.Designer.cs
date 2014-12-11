@@ -63,9 +63,9 @@ namespace VoitureOnLine.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap banner1 {
+        internal static System.Drawing.Bitmap VoitureGrise {
             get {
-                object obj = ResourceManager.GetObject("banner1", resourceCulture);
+                object obj = ResourceManager.GetObject("VoitureGrise", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

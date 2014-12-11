@@ -15,14 +15,17 @@ namespace VoitureOnLine
         public listeCommandes(List<Commande> lesCommandes)
         {
             InitializeComponent();
+            double PrixTotal = 0;
 
             foreach (Commande c in lesCommandes)
             {
                 lbCommandes.Items.Add(c.Chaine());
+                PrixTotal += c.Total();
             }
 
             int nbCommandes = lesCommandes.Count();
             lbNbCommande.Text = "Nombre de commandes : " + nbCommandes;
+            lbTotalCommandes.Text = "Total des commandes : " + PrixTotal + "€";
         }
 
         private void btFermer_Click(object sender, EventArgs e)
