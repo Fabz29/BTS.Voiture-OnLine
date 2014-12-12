@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace VoitureOnLine_TestUnitaire
+namespace VoitureOnLine
 {
     [TestClass]
     public class UnitTest1

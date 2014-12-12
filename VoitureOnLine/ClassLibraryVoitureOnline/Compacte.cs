@@ -17,8 +17,16 @@ namespace VoitureOnLine
 
         public override string Chaine()
         {
-            return string.Format(" a choisi une voiture Cabriolet, finition intérieur : {0}, finition extérieur :  {1}, couleur :  {2}, Motorisation : {3}. Prix {4}€",
-    FinitionInt, FinitionExt, Couleur, Motorisation, Prix());
+            if(cabriolet)
+            {
+                return string.Format(" a choisi une voiture Compacte cabriolet, finition intérieur : {0}, finition extérieur :  {1}, couleur :  {2}, Motorisation : {3}. Prix {4}€",
+                                       FinitionInt, FinitionExt, Couleur, Motorisation, Prix());
+            }
+            else
+            {
+                return string.Format(" a choisi une voiture Compacte, finition intérieur : {0}, finition extérieur :  {1}, couleur :  {2}, Motorisation : {3}. Prix {4}€",
+                                        FinitionInt, FinitionExt, Couleur, Motorisation, Prix());
+            }
         }
 
         public override double Prix()

@@ -6,8 +6,8 @@
     <ProjectGuid>{642B4F63-697F-4ED6-8B3E-52E3FB32A49F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VoitureOnLine_TestUnitaire</RootNamespace>
-    <AssemblyName>VoitureOnLine_TestUnitaire</AssemblyName>
+    <RootNamespace>VoitureOnLine</RootNamespace>
+    <AssemblyName>VoitureOnLine</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
