@@ -39,13 +39,13 @@
             this.lbCommandes.FormattingEnabled = true;
             this.lbCommandes.Location = new System.Drawing.Point(13, 13);
             this.lbCommandes.Name = "lbCommandes";
-            this.lbCommandes.Size = new System.Drawing.Size(881, 225);
+            this.lbCommandes.Size = new System.Drawing.Size(846, 225);
             this.lbCommandes.TabIndex = 0;
             // 
             // lbNbCommande
             // 
             this.lbNbCommande.AutoSize = true;
-            this.lbNbCommande.Location = new System.Drawing.Point(166, 277);
+            this.lbNbCommande.Location = new System.Drawing.Point(85, 277);
             this.lbNbCommande.Name = "lbNbCommande";
             this.lbNbCommande.Size = new System.Drawing.Size(82, 13);
             this.lbNbCommande.TabIndex = 1;
@@ -54,7 +54,7 @@
             // lbTotalCommandes
             // 
             this.lbTotalCommandes.AutoSize = true;
-            this.lbTotalCommandes.Location = new System.Drawing.Point(654, 277);
+            this.lbTotalCommandes.Location = new System.Drawing.Point(636, 277);
             this.lbTotalCommandes.Name = "lbTotalCommandes";
             this.lbTotalCommandes.Size = new System.Drawing.Size(92, 13);
             this.lbTotalCommandes.TabIndex = 2;
@@ -63,7 +63,7 @@
             // btFermer
             // 
             this.btFermer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btFermer.Location = new System.Drawing.Point(419, 333);
+            this.btFermer.Location = new System.Drawing.Point(400, 333);
             this.btFermer.Name = "btFermer";
             this.btFermer.Size = new System.Drawing.Size(75, 23);
             this.btFermer.TabIndex = 3;
@@ -75,7 +75,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(906, 368);
+            this.ClientSize = new System.Drawing.Size(871, 368);
             this.Controls.Add(this.btFermer);
             this.Controls.Add(this.lbTotalCommandes);
             this.Controls.Add(this.lbNbCommande);

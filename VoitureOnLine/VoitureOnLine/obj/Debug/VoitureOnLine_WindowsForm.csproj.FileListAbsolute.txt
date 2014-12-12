@@ -11,3 +11,6 @@ C:\Users\toni__000\ownCloud\BTS SIO\Semestre 3\SLAM 4\Ateliers\Atelier Voiture O
 C:\Users\toni__000\ownCloud\BTS SIO\Semestre 3\SLAM 4\Ateliers\Atelier Voiture OnLine\VoitureOnLine\VoitureOnLine\bin\Debug\VoitureOnLine.exe
 C:\Users\toni__000\ownCloud\BTS SIO\Semestre 3\SLAM 4\Ateliers\Atelier Voiture OnLine\VoitureOnLine\VoitureOnLine\bin\Debug\VoitureOnLine.pdb
 C:\Users\toni__000\ownCloud\BTS SIO\Semestre 3\SLAM 4\Ateliers\Atelier Voiture OnLine\VoitureOnLine\VoitureOnLine\bin\Debug\ClassLibraryVoitureOnline.xml
+C:\Users\toni__000\Documents\GitHub\Voiture-OnLine\VoitureOnLine\VoitureOnLine\bin\Debug\VoitureOnLine.exe.config
+C:\Users\toni__000\Documents\GitHub\Voiture-OnLine\VoitureOnLine\VoitureOnLine\obj\Debug\VoitureOnLine.exe
+C:\Users\toni__000\Documents\GitHub\Voiture-OnLine\VoitureOnLine\VoitureOnLine\obj\Debug\VoitureOnLine.pdb

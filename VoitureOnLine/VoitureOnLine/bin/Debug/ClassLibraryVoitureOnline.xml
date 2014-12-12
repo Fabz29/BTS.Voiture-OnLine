@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibraryVoitureOnline</name>
+    </assembly>
+    <members>
+        <member name="F:VoitureOnLine.Voiture.couleur">
+            <summary>
+            La couleur.
+            </summary>
+        </member>
+        <member name="F:VoitureOnLine.Voiture.finitionExt">
+            <summary>
+            La finition extérieur.
+            </summary>
+        </member>
+        <member name="F:VoitureOnLine.Voiture.finitionInt">
+            <summary>
+            La finition intérieur.
+            </summary>
+        </member>
+        <member name="F:VoitureOnLine.Voiture.motorisation">
+            <summary>
+            La motorisation.
+            </summary>
+        </member>
+        <member name="M:VoitureOnLine.Voiture.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructeur de classe.
+            </summary>
+            <param name="uneFinitionInt">La finition intérieur</param>
+            <param name="uneFinitionExt">La finition extérieur</param>
+            <param name="uneCouleur">La couleur</param>
+            <param name="uneMotorisation">La motorisation</param>
+        </member>
+        <member name="M:VoitureOnLine.Voiture.Chaine">
+            <summary>
+            Méthode qui retourne une chaine qui représente la classe.
+            </summary>
+            <returns>Une chaine représentant la classe</returns>
+        </member>
+        <member name="M:VoitureOnLine.Voiture.Prix">
+            <summary>
+            Méthode qui calcule le prix.
+            </summary>
+            <returns>Le prix</returns>
+        </member>
+        <member name="P:VoitureOnLine.Voiture.Couleur">
+            <summary>
+            Accesseur en lectur de l'attribur couleur
+            </summary>
+            <returns>Une chaine</returns>
+        </member>
+        <member name="P:VoitureOnLine.Voiture.FinitionExt">
+            <summary>
+            Accesseur en lectur de l'attribur finitionExt
+            </summary>
+            <returns>Une chaine</returns>
+        </member>
+        <member name="P:VoitureOnLine.Voiture.FinitionInt">
+            <summary>
+            Accesseur en lectur de l'attribur finitionInt
+            </summary>
+            <returns>Une chaine</returns>
+        </member>
+        <member name="P:VoitureOnLine.Voiture.Motorisation">
+            <summary>
+            Accesseur en lectur de l'attribur motorisation
+            </summary>
+            <returns>Une chaine</returns>
+        </member>
+        <member name="F:VoitureOnLine.Citadine.quatrePortes">
+            <summary>
+            2 portes ou 4 portes.
+            </summary>
+        </member>
+        <member name="M:VoitureOnLine.Citadine.#ctor(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Constructeur de classe.
+            </summary>
+            <param name="uneFinitionInt">La finition intérieur</param>
+            <param name="uneFinitionExt">La finition extérieur</param>
+            <param name="uneCouleur">La couleur</param>
+            <param name="uneMotorisation">La motorisation</param>
+            <param name="pQuatrePortes">2 portes ou 4 portes</param>
+        </member>
+        <member name="M:VoitureOnLine.Citadine.Chaine">
+            <summary>
+            Méthode qui retourne une chaine qui représente la classe.
+            </summary>
+            <returns>Une chaine représentant la classe</returns>
+        </member>
+        <member name="M:VoitureOnLine.Citadine.Prix">
+            <summary>
+            Méthode qui calcule le prix.
+            </summary>
+            <returns>Le prix</returns>
+        </member>
+        <member name="F:VoitureOnLine.Commande.nomClient">
+            <summary>
+            Le nom du client.
+            </summary>
+        </member>
+        <member name="F:VoitureOnLine.Commande.lesVoitures">
+            <summary>
+            Une voiture.
+            </summary>
+        </member>
+        <member name="M:VoitureOnLine.Commande.#ctor(System.String,VoitureOnLine.Voiture)">
+            <summary>
+            Constructeur de classe.
+            </summary>
+            <param name="unNomClient">Le nom du client</param>
+            <param name="pUneVoiture">Une voiture</param>
+        </member>
+        <member name="M:VoitureOnLine.Commande.Chaine">
+            <summary>
+            Méthode qui retourne une chaine qui représente la classe.
+            </summary>
+            <returns>Une chaine représentant la classe</returns>
+        </member>
+        <member name="M:VoitureOnLine.Commande.Total">
+            <summary>
+            Le prix de la commande.
+            </summary>
+            <returns>Le prix de la commande</returns>
+        </member>
+        <member name="P:VoitureOnLine.Commande.NomClient">
+            <summary>
+            Accesseur en lecture sur l'attribut nomClient
+            </summary>
+            <returns>Une chaine</returns>
+        </member>
+        <member name="F:VoitureOnLine.Compacte.cabriolet">
+            <summary>
+            Si c'est un cabriolet.
+            </summary>
+        </member>
+        <member name="M:VoitureOnLine.Compacte.#ctor(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Constructeur de classe.
+            </summary>
+            <param name="uneFinitionInt">La finition intérieur</param>
+            <param name="uneFinitionExt">La finition extérieur</param>
+            <param name="uneCouleur">La couleur</param>
+            <param name="uneMotorisation">La motorisation</param>
+            <param name="pCabriolet">Si c'est un cabriolet</param>
+        </member>
+        <member name="M:VoitureOnLine.Compacte.Chaine">
+            <summary>
+            Méthode qui retourne une chaine qui représente la classe.
+            </summary>
+            <returns>Une chaine représentant la classe</returns>
+        </member>
+        <member name="M:VoitureOnLine.Compacte.Prix">
+            <summary>
+            Méthode qui calcule le prix.
+            </summary>
+            <returns>Le prix</returns>
+        </member>
+        <member name="M:VoitureOnLine.Familiale.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructeur de classe.
+            </summary>
+            <param name="uneFinitionInt">La finition intérieur</param>
+            <param name="uneFinitionExt">La finition extérieur</param>
+            <param name="uneCouleur">La couleur</param>
+            <param name="uneMotorisation">La motorisation</param>
+        </member>
+        <member name="M:VoitureOnLine.Familiale.Chaine">
+            <summary>
+            Méthode qui retourne une chaine qui représente la classe.
+            </summary>
+            <returns>Une chaine représentant la classe</returns>
+        </member>
+        <member name="M:VoitureOnLine.Familiale.Prix">
+            <summary>
+            Méthode qui calcule le prix.
+            </summary>
+            <returns>Le prix</returns>
+        </member>
+        <member name="M:VoitureOnLine.Limousine.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructeur de classe.
+            </summary>
+            <param name="uneFinitionInt">La finition intérieur</param>
+            <param name="uneFinitionExt">La finition extérieur</param>
+            <param name="uneCouleur">La couleur</param>
+            <param name="uneMotorisation">La motorisation</param>
+        </member>
+        <member name="M:VoitureOnLine.Limousine.Chaine">
+            <summary>
+            Méthode qui retourne une chaine qui représente la classe.
+            </summary>
+            <returns>Une chaine représentant la classe</returns>
+        </member>
+        <member name="M:VoitureOnLine.Limousine.Prix">
+            <summary>
+            Méthode qui calcule le prix.
+            </summary>
+            <returns>Le prix</returns>
+        </member>
+    </members>
+</doc>
