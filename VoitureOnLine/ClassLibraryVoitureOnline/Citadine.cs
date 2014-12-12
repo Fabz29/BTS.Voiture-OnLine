@@ -7,14 +7,29 @@ namespace VoitureOnLine
 {
     public class Citadine : Voiture
     {
+        /// <summary>
+        /// 2 portes ou 4 portes.
+        /// </summary>
         private bool quatrePortes;
 
+        /// <summary>
+        /// Constructeur de classe.
+        /// </summary>
+        /// <param name="uneFinitionInt">La finition intérieur</param>
+        /// <param name="uneFinitionExt">La finition extérieur</param>
+        /// <param name="uneCouleur">La couleur</param>
+        /// <param name="uneMotorisation">La motorisation</param>
+        /// <param name="pQuatrePortes">2 portes ou 4 portes</param>
         public Citadine(string uneCouleur, string uneFinitionExt, string uneFinitionInt, string uneMotorisation, bool pQuatrePortes)
             :base(uneCouleur, uneFinitionExt, uneFinitionInt, uneMotorisation)
         {
             this.quatrePortes = pQuatrePortes;
         }
 
+        /// <summary>
+        /// Méthode qui retourne une chaine qui représente la classe.
+        /// </summary>
+        /// <returns>Une chaine représentant la classe</returns>
         public override string Chaine()
         {
             if (quatrePortes)
@@ -28,6 +43,11 @@ namespace VoitureOnLine
                     FinitionInt, FinitionExt, Couleur, Motorisation, Prix());
             }
         }
+
+        /// <summary>
+        /// Méthode qui calcule le prix.
+        /// </summary>
+        /// <returns>Le prix</returns>
 
         public override double Prix()
         {

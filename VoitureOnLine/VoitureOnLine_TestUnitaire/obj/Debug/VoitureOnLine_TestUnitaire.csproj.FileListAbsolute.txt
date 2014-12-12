@@ -5,3 +5,5 @@ C:\Users\toni__000\ownCloud\BTS SIO\Semestre 3\SLAM 4\Ateliers\Atelier Voiture O
 C:\Users\toni__000\ownCloud\BTS SIO\Semestre 3\SLAM 4\Ateliers\Atelier Voiture OnLine\VoitureOnLine\VoitureOnLine_TestUnitaire\obj\Debug\VoitureOnLine_TestUnitaire.csprojResolveAssemblyReference.cache
 C:\Users\toni__000\ownCloud\BTS SIO\Semestre 3\SLAM 4\Ateliers\Atelier Voiture OnLine\VoitureOnLine\VoitureOnLine_TestUnitaire\obj\Debug\VoitureOnLine.dll
 C:\Users\toni__000\ownCloud\BTS SIO\Semestre 3\SLAM 4\Ateliers\Atelier Voiture OnLine\VoitureOnLine\VoitureOnLine_TestUnitaire\obj\Debug\VoitureOnLine.pdb
+C:\Users\toni__000\ownCloud\BTS SIO\Semestre 3\SLAM 4\Ateliers\Atelier Voiture OnLine\VoitureOnLine\VoitureOnLine_TestUnitaire\bin\Debug\VoitureOnLine.XML
+C:\Users\toni__000\ownCloud\BTS SIO\Semestre 3\SLAM 4\Ateliers\Atelier Voiture OnLine\VoitureOnLine\VoitureOnLine_TestUnitaire\bin\Debug\ClassLibraryVoitureOnline.xml

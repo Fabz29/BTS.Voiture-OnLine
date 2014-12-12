@@ -7,14 +7,29 @@ namespace VoitureOnLine
 {
     public class Compacte : Voiture
     {
+        /// <summary>
+        /// Si c'est un cabriolet.
+        /// </summary>
         private bool cabriolet;
 
+        /// <summary>
+        /// Constructeur de classe.
+        /// </summary>
+        /// <param name="uneFinitionInt">La finition intérieur</param>
+        /// <param name="uneFinitionExt">La finition extérieur</param>
+        /// <param name="uneCouleur">La couleur</param>
+        /// <param name="uneMotorisation">La motorisation</param>
+        /// <param name="pCabriolet">Si c'est un cabriolet</param>
         public Compacte(string uneCouleur, string uneFinitionExt, string uneFinitionInt, string uneMotorisation, bool pCabriolet)
             :base(uneCouleur, uneFinitionExt, uneFinitionInt, uneMotorisation)
         {
             this.cabriolet = pCabriolet;
         }
 
+        /// <summary>
+        /// Méthode qui retourne une chaine qui représente la classe.
+        /// </summary>
+        /// <returns>Une chaine représentant la classe</returns>
         public override string Chaine()
         {
             if(cabriolet)
@@ -29,6 +44,10 @@ namespace VoitureOnLine
             }
         }
 
+        /// <summary>
+        /// Méthode qui calcule le prix.
+        /// </summary>
+        /// <returns>Le prix</returns>
         public override double Prix()
         {
             double prix = base.Prix() + 7000;
